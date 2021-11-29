@@ -1,19 +1,21 @@
 console.time("Execution Time");
 
-const printPetPreference = (petBoi) => {
-	if (petBoi) {
-		return `My favorite dog breed is ${petBoi}`;
+const printPetPreference = (breed) => {
+	if (breed) {
+		return `My favorite animal is a ${breed}`;
 	} else {
 		return `
-       <MEOW>
-     ///____///
-    /  o   o  /
-   ( ==  ^  == )
-    )         (
-   (           )        /
-  ( (  )   (  ) )       /
- (__(__)___(__)__)_____/
- 
+I guess you REALLY like cats
+
+         <MEOW>
+       ///____///
+      /  o   o  /
+     ( ==  ^  == )
+      )         (
+     (           )        /
+    ( (  )   (  ) )       /
+   (__(__)___(__)__)_____/
+  
  `
 	}
 };
